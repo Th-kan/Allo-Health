@@ -15,7 +15,7 @@ An end-to-end multi-warehouse inventory reservation and checkout platform built 
 ### 2. Configure Environment Variables
 Create a `.env` file in the root of the project:
 ```env
-DATABASE_URL="postgresql://username:password@hostname:5432/dbname?sslmode=require"
+DATABASE_URL="postgresql://neondb_owner:npg_Oj0NmlufyYI9@ep-twilight-smoke-aqxt44y5.c-8.us-east-1.aws.neon.tech/neondb?sslmode=require"
 # Optional: Secret to protect the cron cleanup endpoint
 # CRON_SECRET="your-secret-key-here"
 ```
