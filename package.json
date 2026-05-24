@@ -6,10 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
-  },
-  "prisma": {
-    "seed": "tsx prisma/seed.ts"
+    "lint": "eslint",
+    "postinstall": "prisma generate"
   },
   "dependencies": {
     "@prisma/adapter-pg": "^7.8.0",
@@ -31,7 +29,6 @@
     "prisma": "^7.8.0",
     "tailwindcss": "^4",
     "ts-node": "^10.9.2",
-    "tsx": "^4.22.3",
     "typescript": "^5"
   }
 }
